@@ -1,0 +1,16 @@
+﻿<Window x:Class="Views.SystemSercurity.frmLogin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Views.SystemSercurity"
+        mc:Ignorable="d"
+        Title="Login" Height="151" Width="388" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" ShowInTaskbar="False">
+    <Grid Margin="0,0,0,10">
+        <TextBox HorizontalAlignment="Left" Margin="118,68,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Margin="118,45,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Label Content="UserName" HorizontalAlignment="Left" Margin="60,41,0,0" VerticalAlignment="Top"/>
+        <Label Content="Password" HorizontalAlignment="Left" Margin="60,64,0,0" VerticalAlignment="Top"/>
+        <Button Content="Login" HorizontalAlignment="Left" Margin="243,45,0,0" VerticalAlignment="Top" Height="41" Width="99" Click="Button_Click"/>
+    </Grid>
+</Window>
